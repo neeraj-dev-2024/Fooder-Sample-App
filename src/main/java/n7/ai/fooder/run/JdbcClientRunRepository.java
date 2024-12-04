@@ -32,8 +32,8 @@ public class JdbcClientRunRepository {
     }
 
     public void create(Run run) {
-        var updated = jdbcClient.sql("INSERT INTO Run(id,title,started_on,completed_on,miles,location) values(?,?,?,?,?,?)")
-                .params(List.of(run.id(),run.title(),run.startedOn(),run.completedOn(),run.miles(),run.location().toString()))
+        var updated = jdbcClient.sql("INSERT INTO Run(id,title,started_on,completed_on,miles,version,location) values(?,?,?,?,?,?,?)")
+                .params(List.of(run.id(),run.title(),run.startedOn(),run.completedOn(),run.miles(),run.version(),run.location().toString()))
                 .update();
 
         Assert.state(updated == 1, "Failed to create run " + run.title());
@@ -47,8 +47,8 @@ public class JdbcClientRunRepository {
     }
 
     public void update(Run run, Integer id) {
-        var updated = jdbcClient.sql("INSERT INTO Run(id,title,started_on,completed_on,miles,location) values(?,?,?,?,?,?)")
-                .params(List.of(run.id(),run.title(),run.startedOn(),run.completedOn(),run.miles(),run.location().toString()))
+        var updated = jdbcClient.sql("INSERT INTO Run(id,title,started_on,completed_on,miles,version, location) values(?,?,?,?,?,?,?)")
+                .params(List.of(run.id(),run.title(),run.startedOn(),run.completedOn(),run.miles(),run.version(),run.location().toString()))
                 .update();
 
         Assert.state(updated == 1, "Failed to create run " + run.title());

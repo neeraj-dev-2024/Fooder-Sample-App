@@ -6,6 +6,7 @@
       "startedOn": "2024-02-20T06:05:00.000000",
       "completedOn": "2024-02-20T10:27:00.000000",
       "miles": 24,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -14,6 +15,7 @@
       "startedOn": "2024-02-22T12:16:00.000000",
       "completedOn": "2024-02-22T14:27:00.000000",
       "miles": 6,
+      "version": 1,
       "location": "OUTDOOR"
     },
     {
@@ -22,6 +24,7 @@
       "startedOn": "2024-03-06T19:47:00.000000",
       "completedOn": "2024-03-06T22:06:00.000000",
       "miles": 19,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -30,6 +33,7 @@
       "startedOn": "2024-03-31T08:32:00.000000",
       "completedOn": "2024-03-31T12:57:00.000000",
       "miles": 7,
+      "version": 1,
       "location": "OUTDOOR"
     },
     {
@@ -38,6 +42,7 @@
       "startedOn": "2024-03-01T03:49:00.000000",
       "completedOn": "2024-03-01T05:58:00.000000",
       "miles": 11,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -46,6 +51,7 @@
       "startedOn": "2024-03-02T21:02:00.000000",
       "completedOn": "2024-03-03T00:36:00.000000",
       "miles": 3,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -54,6 +60,7 @@
       "startedOn": "2024-04-05T02:46:00.000000",
       "completedOn": "2024-04-05T06:43:00.000000",
       "miles": 8,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -62,6 +69,7 @@
       "startedOn": "2024-03-29T06:37:00.000000",
       "completedOn": "2024-03-29T09:19:00.000000",
       "miles": 20,
+      "version": 1,
       "location": "OUTDOOR"
     },
     {
@@ -70,6 +78,7 @@
       "startedOn": "2024-03-22T23:22:00.000000",
       "completedOn": "2024-03-23T02:41:00.000000",
       "miles": 4,
+      "version": 1,
       "location": "INDOOR"
     },
     {
@@ -78,6 +87,7 @@
       "startedOn": "2024-03-08T01:34:00.000000",
       "completedOn": "2024-03-08T05:53:00.000000",
       "miles": 23,
+      "version": 1,
       "location": "OUTDOOR"
     }
   ]
