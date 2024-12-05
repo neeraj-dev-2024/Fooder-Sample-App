@@ -1,4 +1,7 @@
 package n7.ai.fooder;
+import n7.ai.fooder.restaurant.Restaurant;
+import n7.ai.fooder.restaurant.RestaurantRepository;
+import n7.ai.fooder.restaurant.RestaurantType;
 import n7.ai.fooder.user.User;
 import n7.ai.fooder.user.UserHTTPClient;
 import n7.ai.fooder.user.UserRestClient;
@@ -23,23 +26,5 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		log.info("Application Started");
 	}
-
-//	@Bean
-//	UserHTTPClient userHTTPClient() {
-//		RestClient restClient = RestClient.create("http://jsonplaceholder.typicode.com/");
-//		HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient)).build();
-//		return factory.createClient(UserHTTPClient.class);
-//	}
-//
-//	@Bean
-//	CommandLineRunner runner(UserHTTPClient client) {
-//		return args -> {
-//			List<User> users = client.findAll();
-//			System.out.println(users);
-//
-////			User user = client.findById(2);
-////			System.out.println(user);
-//
-//		};
 }
 
